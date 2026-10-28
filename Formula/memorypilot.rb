@@ -1,9 +1,9 @@
 class Memorypilot < Formula
   desc "Local memory layer for AI agents (MCP server)"
   homepage "https://github.com/Soflutionltd/MemoryPilot"
-  url "https://github.com/Soflutionltd/MemoryPilot/archive/refs/tags/v4.12.0.tar.gz"
-  version "4.12.0"
-  sha256 "224e10832dab9e9b8c08648466ee493b073553c509278a721d6f1a8ddf7afc37"
+  url "https://github.com/Soflutionltd/MemoryPilot/archive/refs/tags/v4.13.0.tar.gz"
+  version "4.13.0"
+  sha256 "49458eb00dedbff7524bc56a5314308b9f0b807cde105ec336c8378a29c3828d"
   license :cannot_represent # Soflution Source Available License
 
   head do
@@ -13,8 +13,8 @@ class Memorypilot < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Soflutionltd/MemoryPilot/releases/download/v4.12.0/MemoryPilot-aarch64-apple-darwin.tar.gz"
-      sha256 "c8b8b1be50cb3c4dbc2280f4b6fa25c9864798747443ca8ea0e5b4429de96f7b"
+      url "https://github.com/Soflutionltd/MemoryPilot/releases/download/v4.13.0/MemoryPilot-aarch64-apple-darwin.tar.gz"
+      sha256 "87bc30deadb201ca9267bffbe327985a7c0a1a8c68174b641065ec060f952564"
     end
     on_intel do
       depends_on "rust" => :build
